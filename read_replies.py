@@ -7,7 +7,7 @@ from dotenv import load_dotenv   # ✅ added
 # ==============================
 # GMAIL CONFIGURATION
 # ==============================
-load_dotenv("config.env")        # ✅ added
+     # ✅ added
 EMAIL_ACCOUNT = os.getenv("EMAIL_ACCOUNT")   # ✅ changed
 APP_PASSWORD = os.getenv("APP_PASSWORD")     # ✅ changed
 

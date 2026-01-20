@@ -31,7 +31,7 @@ def send_emails_function(
     # ------------------------------
     # Load environment variables
     # ------------------------------
-    load_dotenv("config.env")
+
     SENDER_EMAIL = os.getenv("EMAIL_ACCOUNT")
     APP_PASSWORD = os.getenv("APP_PASSWORD")
     if not SENDER_EMAIL or not APP_PASSWORD:
