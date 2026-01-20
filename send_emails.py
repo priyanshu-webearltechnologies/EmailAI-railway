@@ -125,3 +125,4 @@ def send_emails_function(
     # ------------------------------
     server.quit()
     print("🎉 All emails processed successfully!")
+  

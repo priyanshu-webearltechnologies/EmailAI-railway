@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+config.env
+
+# Logs & build
+logs/
+build/
+
+# Data files
+*.xlsx
